@@ -10,5 +10,12 @@ const itemCountSpan = document.getElementById('item-count')
 const uncheckedCountSpan = document.getElementById('unchecked-count')
 
 function newTodo() {
-  alert('New TODO button clicked!')
+  console.log('New TODO button clicked!');
+
+  let newHTML = `
+  <li class="todo-container">
+    <input class="todo-checkbox" type="checkbox" /> <input type="text" />
+  </li>`;
+
+  list.insertAdjacentHTML('beforeend', newHTML);
 }
