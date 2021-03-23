@@ -13,8 +13,8 @@ function newTodo() {
   console.log('New TODO button clicked!');
 
   let newHTML = `
-  <li class="todo-container">
-    <input class="todo-checkbox" type="checkbox" /> <input type="text" />
+  <li class="${classNames.TODO_ITEM}">
+    <input class="${classNames.TODO_CHECKBOX}" type="checkbox" /> <input class="${classNames.TODO_TEXT}" type="text" />
   </li>`;
 
   list.insertAdjacentHTML('beforeend', newHTML);
