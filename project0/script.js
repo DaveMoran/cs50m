@@ -18,4 +18,9 @@ function newTodo() {
   </li>`;
 
   list.insertAdjacentHTML('beforeend', newHTML);
+  updateItemCount();
+}
+
+function updateItemCount() {
+  itemCountSpan.innerText = list.childElementCount;
 }
