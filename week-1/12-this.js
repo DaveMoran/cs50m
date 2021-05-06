@@ -13,6 +13,7 @@ friend.greet = person.greet
 
 friend.greet()
 
+this.name = "Human"
 const greet = person.greet
 
 greet()
