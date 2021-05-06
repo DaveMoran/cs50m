@@ -1,5 +1,6 @@
 function addOne(num) {
-  return num + 1
+  // return num + 1
+  throw new Error('oh no, an error!')
 }
 
 function getNum() {
