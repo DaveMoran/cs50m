@@ -17,4 +17,11 @@ const greet = person.greet.bind({name: "Bound"})
 person.greet.call({ name: "Bound" })
 person.greet.apply({ name: "Bound" })
 
+const newPerson = {
+  name: 'newPerson',
+  greet: () => { console.log(this.name) }
+}
+
+newPerson.greet()
+
 greet()
