@@ -14,5 +14,7 @@ friend.greet = person.greet
 friend.greet()
 
 const greet = person.greet.bind({name: "Bound"})
+person.greet.call({ name: "Bound" })
+person.greet.apply({ name: "Bound" })
 
 greet()
