@@ -6,6 +6,9 @@ class Set {
   }
 
   add(val) {
+    if (!this.has(val)) {
+      this.arr.push(val)
+    }
   }
 
   delete(val){
