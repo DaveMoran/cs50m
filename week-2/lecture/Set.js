@@ -30,7 +30,6 @@ s.add(1)
 s.add(1)
 s.add(1)
 console.log('s should have 5 members and actually has:', s.size)
-
 console.log('s should contain 5:', s.has(5))
 
 s.add(6)
