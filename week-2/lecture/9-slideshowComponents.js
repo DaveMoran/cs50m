@@ -1,3 +1,9 @@
+const slideshow = (
+  <div>
+    {slides.map(slide => <Slide slide={slide} />)}
+  </div>
+)
+
 const Slide = slide => (
   <div>
     <h1>{slide.title}</h1>
