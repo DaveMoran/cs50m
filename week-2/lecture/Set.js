@@ -1,6 +1,20 @@
 // Set should maintain a list of unique values and should support add, delete, and inclusion
 // It should have the ability to get its size
 class Set {
+  constructor(arr){
+    this.arr = arr
+  }
+
+  add(val) {
+  }
+
+  delete(val){
+
+  }
+
+  has(val) {
+    return this.arr.includes(val)
+  }
 }
 
 const s = new Set([1,2,3,4,5])
