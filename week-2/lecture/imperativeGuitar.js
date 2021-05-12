@@ -24,4 +24,6 @@ function Gutar() {
     string.tune(tone)
     bosy.append(string)
   })
+
+  return body
 }
