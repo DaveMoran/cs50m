@@ -7,6 +7,8 @@ const styles = StyleSheet.create({
 
 export const num = 50
 
-export const Count = props => (
+const Count = props => (
     <Text style={styles.text}>{props.count}</Text>
 )
+
+export default Count
