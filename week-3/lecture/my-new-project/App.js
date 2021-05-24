@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Count, {num} from './Count.js';
+import Count from './Count.js';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Count count={num} />
+      <Count count={"0"} />
     </View>
   );
 }
